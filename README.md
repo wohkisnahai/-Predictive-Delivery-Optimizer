@@ -110,20 +110,3 @@ The underlying analysis (`DeliveryDelayDataAnalysis.ipynb`) revealed several key
 
 ---
 
-## 📁 File Structure
-.
-├── app.py                      # Main Streamlit application script
-├── MLmodel.py                  # Script for training the ML model
-├── DeliveryDelayDataAnalysis.ipynb # Jupyter Notebook for EDA
-├── delivery_optimizer_model.joblib # Saved scikit-learn pipeline (model + preprocessor)
-├── requirements.txt            # Python dependencies
-├── README.md                   # This file
-│
-└── # --- Required Data Files (Place these here) ---
-    ├── orders.csv
-    ├── routes_distance.csv
-    ├── delivery_performance.csv
-    ├── vehicle_fleet.csv
-    ├── warehouse_inventory.csv
-    ├── cost_breakdown.csv        # (Optional, for notebook)
-    └── customer_feedback.csv     # (Optional, for notebook)
