@@ -1,0 +1,5 @@
+pandas
+altair
+streamlit
+scikit-learn
+joblib
